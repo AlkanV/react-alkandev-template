@@ -1,5 +1,5 @@
 {
-  "name": "firebase-react-templ",
+  "name": "react-alkandev-template",
   "version": "0.0.2",
   "description": "A baseline React template with Firebase functions, database rules, simple auth, and general project structure",
   "private": true,
@@ -7,11 +7,12 @@
     "client-src",
     "functions"
   ],
-  "author": "Corbin Crutchley <crutchcorn@gmail.com>",
+  "author": "Alkan Vatansever <contact@alkan.dev>",
   "license": "MIT",
-  "homepage": "https://github.com/crutchcorn/firebase-react-templ",
+  "homepage": "alkan.dev",
   "scripts": {
     "serve": "run-s build \"firebase serve\"",
+    "deploy": "run-p build:* && firebase deploy --only hosting",
     "serve:functions": "cd functions && npx -p node@6.11.5 -- npm run serve",
     "serve:client": "npm --prefix ./client-src run start",
     "build": "run-p build:*",
@@ -37,7 +38,7 @@
     "husky": "^7.0.0",
     "lint-staged": "^11.0.1",
     "npm-run-all": "^4.1.5",
-    "typescript": "^4.3.5"
+    "typescript": "^4.4.3"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -47,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/crutchcorn/firebase-react-templ"
+    "url": "https://github.com/AlkanV/respeech-web"
   },
   "keywords": [
     "firebase",

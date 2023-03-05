@@ -1,10 +1,10 @@
 {
-  "name": "firebase-react-templ-functions",
+  "name": "react-alkandev-template-functions",
   "version": "0.0.2",
   "main": "lib/index.js",
-  "author": "Corbin Crutchley <crutchcorn@gmail.com>",
+  "author": "Alkan Vatansever <contact@alkan.dev>",
   "license": "MIT",
-  "homepage": "https://github.com/crutchcorn/firebase-react-templ",
+  "homepage": "https://github.com/AlkanV/react-alkandev-template",
   "scripts": {
     "lint": "eslint ./src/**/*.ts",
     "format": "eslint --fix ./src/**/*.ts",

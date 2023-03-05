@@ -1,19 +1,23 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "outDir": "lib",
-    "sourceMap": true,
-    "strict": true,
-    "target": "es2017",
-    "lib": [
-      "es2017",
-      "esnext"
-    ]
-  },
-  "compileOnSave": true,
-  "include": [
-    "src"
-  ]
-}
+	"compilerOptions": {
+	  "module": "commonjs",
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "noImplicitReturns": true,
+	  "noUnusedLocals": true,
+	  "outDir": "lib",
+	  "sourceMap": true,
+	  "strict": true,
+	  "target": "es2017",
+	  "lib": [
+		"es2017",
+		"esnext",
+		"dom"
+	  ]
+	},
+	"compileOnSave": true,
+	"include": [
+	  "src"
+	]
+  }
+  
